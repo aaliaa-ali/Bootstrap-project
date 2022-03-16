@@ -1,0 +1,136 @@
+    :root {
+      --success: #07beb8;
+      --verydark: black;
+    }
+    .text-success {
+      color: var(--success) !important;
+    }
+    .bg-success {
+      background-color: var(--success) !important;
+    }
+    .bg-black {
+      background-color: var(--verydark) !important;
+    }
+  
+    
+    #card1 {
+      background-color: #07beb8;
+    }
+    #card2 {
+      background-color: #3dccc7;
+    }
+    #card3 {
+      background-color: #68d8d6;
+    }
+    #section2 span {
+      background-color: #08ccc5;
+    }
+    #check {
+      color: rgb(17, 218, 17);
+    }
+    #key,
+    #price {
+      background: linear-gradient(to top, lightgray, white);
+    }
+    .about-us i {
+      color: #3dccc7;
+
+    }
+    .about-us button,
+    .accordion-body button {
+      background-color: #3dccc7;
+
+    }
+    .about-us ul,
+    .accordion-body ul {
+      list-style: none;
+    }
+    .about-us ul li i , .accordion-body ul li i{
+      color: black;
+    }
+    .about-us ul li a,
+    .accordion-body ul li a {
+      text-decoration: none;
+      color: gray;
+    }
+    #key {
+      position: relative;
+    }
+    #key img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+    .price {
+      position: absolute;
+    }
+    .price {
+      width: 90px;
+      height: 90px;
+      border: 1px solid lightgray;
+      background-color: white;
+      z-index: 1;
+      border-radius: 50%;
+      right: -10px;
+      top: -90px;
+    }
+    .price p {
+      position: absolute;
+      font-weight: 700;
+      right: 6px;
+
+    }
+    .price span {
+      color: magenta;
+    }
+    @media (max-width: 576px) {
+      .slider img {
+        height: 30vh;
+      }
+      .form-control {
+        width: 60%;
+      }
+    }
+    @media (min-width: 576px) {
+
+      .slider img {
+        height: 45vh;
+      }
+     
+    }
+    @media (min-width: 768px) { 
+      .slider img {
+        height: 30vh;
+      }
+      .form-control {
+        width: 60%;
+      }
+    }
+    @media (min-width: 992px) {
+      .slider img {
+        height: 50vh;
+      }
+      .form-control {
+        width: 50%;
+      }
+    }
+    @media (min-width: 1200px) {
+      .slider img {
+        height: 55vh;
+      }
+    }
+    @media (max-width: 400px) {
+      #cards {
+       width:80%;
+      }
+    }
+    .header button {
+      height: 30px;
+    }
+    .accordion-button::after {
+      background-image: url(../images/arrow.png);
+    }
+    .dropdown-toggle::after {
+      display: none;
+    }
+   
